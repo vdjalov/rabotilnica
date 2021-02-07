@@ -1,0 +1,68 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap'); */
+
+html {
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+main {
+    margin: 50px 50px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    max-height: 100%;
+    width: 50%;
+}
+
+#first-div{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height:30%;
+    width: 100%;
+    background: url(/img/003.jpg);
+    background-size: 100% 100%;
+   
+}
+
+#first-div span {
+    color: rgb(255, 255, 255);
+    font-size: 130%;
+    letter-spacing: 4px;
+}
+
+#second-div{
+    width: 100%;
+}
+
+#third-div{
+    max-height: 50%;
+    width: 100%;
+    
+}
+
+#third-div img {
+    height: 100%;
+    width: 100%;   
+}
+
+.font-bold {
+    font-weight: bolder;
+}
+
+.letter-spacing
+ {
+    font-weight: normal;
+}
+
